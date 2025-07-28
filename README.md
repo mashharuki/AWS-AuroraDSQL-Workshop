@@ -943,5 +943,7 @@ unset AWS_SECRET_ACCESS_KEY
 unset AWS_SESSION_TOKEN
 ```
 
+削除する時も両方のリージョンで削除する必要あり
+
 ## ハンズオンページ
 [Amazon Aurora DSQL Immersion Day](https://catalog.workshops.aws/aurora-dsql/ja-JP/01-getting-started)
