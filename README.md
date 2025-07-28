@@ -18,5 +18,23 @@ chmod u+x setup.sh
 sh setup.sh
 ```
 
+環境変数を設定する
+
+```bash
+source ~/workshop/init.rc
+```
+
+Javaがインストールされているかを確認する
+
+```bash
+java --version
+```
+
+mavenがインストールされているかを確認する
+
+```bash
+mvn --version
+```
+
 ## ハンズオンページ
 [Amazon Aurora DSQL Immersion Day](https://catalog.workshops.aws/aurora-dsql/ja-JP/01-getting-started)
