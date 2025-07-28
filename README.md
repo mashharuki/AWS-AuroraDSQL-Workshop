@@ -18,6 +18,13 @@ chmod u+x setup.sh
 sh setup.sh
 ```
 
+以下のようになればOK!
+
+```bash
+Code Bucket:       code-796032104877-us-east-1
+App Template URL:  https://code-796032104877-us-east-1.s3.amazonaws.com/rewards-app-stack.yml
+```
+
 環境変数を設定する
 
 ```bash
