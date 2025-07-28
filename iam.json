@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "dsql:CreateCluster",
+                "dsql:GetCluster",
+                "dsql:UpdateCluster",
+                "dsql:DeleteCluster",
+                "dsql:ListClusters",
+                "dsql:CreateMultiRegionClusters",
+                "dsql:DeleteMultiRegionClusters",
+                "dsql:DbConnect",
+                "dsql:DbConnectAdmin"
+            ],
+            "Resource": "*"
+        }
+    ]
