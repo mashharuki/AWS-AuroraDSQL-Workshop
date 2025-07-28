@@ -43,5 +43,30 @@ mavenがインストールされているかを確認する
 mvn --version
 ```
 
+使用する2つのリージョンを指定してDSQLのクラスターを作成する。
+
+それぞれのリージョンで以下の情報をメモすること
+
+- Cluster ID
+- クラスターのEndpoint
+- クラスターの Amazon Resource Name (ARN)
+
+今回だと以下のような値となる
+
+- us-east-1
+  - Cluster ID  
+    7aabuioufvzv7efit7d3hz2r6a
+  - クラスターのEndpoint  
+    7aabuioufvzv7efit7d3hz2r6a.dsql.us-east-1.on.aws
+  - クラスターの Amazon Resource Name (ARN)  
+    arn:aws:dsql:us-east-1:796032104877:cluster/7aabuioufvzv7efit7d3hz2r6a
+- us-east-2
+  - Cluster ID  
+    w4abuiouh2lg7cszsxlx7mc25u
+  - クラスターのEndpoint  
+    w4abuiouh2lg7cszsxlx7mc25u.dsql.us-west-2.on.aws
+  - クラスターの Amazon Resource Name (ARN)  
+    arn:aws:dsql:us-west-2:796032104877:cluster/w4abuiouh2lg7cszsxlx7mc25u
+
 ## ハンズオンページ
 [Amazon Aurora DSQL Immersion Day](https://catalog.workshops.aws/aurora-dsql/ja-JP/01-getting-started)
